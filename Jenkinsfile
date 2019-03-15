@@ -73,9 +73,10 @@ pipeline {
       }
     }
   }
+  /* https://github.com/jenkins-x/jx/issues/2516#issuecomment-458986098
   post {
         always {
-          // cleanWs() https://github.com/jenkins-x/jx/issues/2516#issuecomment-458986098
+          cleanWs()
         }
-  }
+  }*/
 }
